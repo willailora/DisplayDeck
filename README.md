@@ -10,5 +10,5 @@ This repository only holds `version.json`, which DisplayDeck reads once at start
 このリポジトリには、更新の知らせに使う `version.json` だけを置いています。アプリはダウンロードページから配布します。
 
 - itch.io: (coming soon)
-- BOOTH: (coming soon)
+- BOOTH: https://ailorawill.booth.pm/items/9117668
 - Ko-fi: (coming soon)
