@@ -9,6 +9,6 @@ This repository only holds `version.json`, which DisplayDeck reads once at start
 (it can be turned off in "About DisplayDeck"). The app itself is distributed on the download pages below.
 このリポジトリには、更新の知らせに使う `version.json` だけを置いています。アプリはダウンロードページから配布します。
 
-- itch.io: (coming soon)
+- itch.io: https://willlive.itch.io/displaydeck
 - BOOTH: https://ailorawill.booth.pm/items/9117668
-- Ko-fi: (coming soon)
+- Ko-fi: https://ko-fi.com/s/f547e14904
