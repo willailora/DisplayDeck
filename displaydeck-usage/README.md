@@ -40,6 +40,15 @@ with `willailora/DisplayDeck` → **Add plugin** (displaydeck-usage).
 Choose the **user** scope so it works in every project. A mod installed this way also runs in the desktop app's Code tab.
 入れる範囲は **user**（すべてのプロジェクト）を選んでください。
 
+## Accuracy / 正確さ
+
+The figures are what Claude Code received with its latest reply. They can differ from the Claude app's usage screen by
+about 1%, and can lag behind depending on how you use Claude (they stay as they are until the next reply; the remaining
+percentage is rounded down).
+
+表示は、Claude Code が最後の返事で受け取った値です。Claude のアプリの使用量の画面と比べて1%前後ずれることや、
+使い方によっては反映が遅れることがあります（次の返事が来るまで前の値のままです。残りは小数点以下を切り捨てて出します）。
+
 Mods are an early-access feature of Claude Code, so a future Claude Code update may require an update of this mod.
 
 ## License
