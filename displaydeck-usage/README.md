@@ -40,6 +40,12 @@ with `willailora/DisplayDeck` → **Add plugin** (displaydeck-usage).
 Choose the **user** scope so it works in every project. A mod installed this way also runs in the desktop app's Code tab.
 入れる範囲は **user**（すべてのプロジェクト）を選んでください。
 
+**Sessions that were already open keep running without the mod.** A mod is loaded when a session starts, so close and
+reopen those sessions (or restart the desktop app). Until then, replies in them do not update DisplayDeck.
+
+**入れる前から開いていたセッションでは動きません。** mod はセッションを開くときに読み込まれるので、開いていたセッションは
+一度閉じて開き直してください（デスクトップアプリを再起動しても同じです）。それまでは、そのセッションの返事では更新されません。
+
 ## Accuracy / 正確さ
 
 The figures are what Claude Code received with its latest reply. They can differ from the Claude app's usage screen by

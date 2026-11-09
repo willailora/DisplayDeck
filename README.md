@@ -25,3 +25,6 @@ Install the mod in a terminal Claude Code session / mod の入れ方（ターミ
 ```
 /plugin install displaydeck-usage --marketplace willailora/DisplayDeck
 ```
+
+It works in sessions opened after you install it; close and reopen sessions that were already open.
+入れたあとに開いたセッションで動きます。開いていたセッションは一度閉じて開き直してください。
