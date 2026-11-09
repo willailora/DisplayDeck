@@ -1,8 +1,8 @@
 {
-  "version": "0.9.3",
+  "version": "0.9.4",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "Claude Code の mod「displaydeck-usage」で、デスクトップアプリで作業している間も Claude の使用量を出せるようになりました（入れ方は README）。",
-  "notes_en": "With the Claude Code mod \"displaydeck-usage\", Claude usage now shows while you work in the desktop app too (see README)."
+  "notes_ja": "設定画面の「前面アプリで自動切替」の欄を、ページ名のすぐ下に移しました（見つけやすく）。",
+  "notes_en": "Moved \"Switch with the active app\" in the settings window right below the page name, so it is easier to find."
 }
