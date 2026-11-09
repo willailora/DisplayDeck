@@ -5,10 +5,23 @@ Taps never move your mouse cursor or steal focus from the window you are working
 
 タッチモニターを、ボタンと PC 情報のパネルにする Windows の無料アプリです。
 
-This repository only holds `version.json`, which DisplayDeck reads once at startup to tell you about a new version
-(it can be turned off in "About DisplayDeck"). The app itself is distributed on the download pages below.
-このリポジトリには、更新の知らせに使う `version.json` だけを置いています。アプリはダウンロードページから配布します。
+The app itself is distributed on the download pages below (it is not open source).
+アプリはダウンロードページから配布しています（ソースは公開していません）。
 
 - itch.io: https://willlive.itch.io/displaydeck
 - BOOTH: https://ailorawill.booth.pm/items/9117668
 - Ko-fi: https://ko-fi.com/s/f547e14904
+
+## What is in this repository / このリポジトリにあるもの
+
+- `version.json` — read by DisplayDeck once at startup to tell you about a new version (can be turned off in "About DisplayDeck").
+  更新の知らせに使うファイル（「このアプリについて」でオフにできます）。
+- `displaydeck-usage/` — a small Claude Code mod (MIT) that hands your Claude usage (5-hour / weekly) to DisplayDeck,
+  also while you use the Claude desktop app. See [displaydeck-usage/README.md](displaydeck-usage/README.md).
+  Claude の使用量を DisplayDeck に渡す、Claude Code 用の小さな mod（MIT ライセンス）。
+
+Install the mod in a terminal Claude Code session / mod の入れ方（ターミナル版の Claude Code で）:
+
+```
+/plugin install displaydeck-usage --marketplace willailora/DisplayDeck
+```

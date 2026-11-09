@@ -1,0 +1,8 @@
+{
+  "name": "displaydeck-usage",
+  "version": "0.1.0",
+  "description": "Hands Claude's 5-hour and weekly usage (as the status line has it) to DisplayDeck through a small local file",
+  "author": { "name": "ailora will" },
+  "license": "MIT",
+  "homepage": "https://github.com/willailora/DisplayDeck"
+}
