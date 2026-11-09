@@ -1,8 +1,8 @@
 {
-  "version": "0.9.1",
+  "version": "0.9.2",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "Claude の使用量 API を削除（Claude の使用量はステータスラインから受け取ります）。作者のマークを追加、利用規約を更新。",
-  "notes_en": "Removed the Claude usage API (Claude usage now comes from the status line). Added the author mark and updated the terms of use."
+  "notes_ja": "Claude のカードを分かりやすく（使用量が無いときは理由と出し方、古い値には「◯前の値」）。新しい設定では入っていない AI のカードを出さない。",
+  "notes_en": "Clearer Claude card (explains how to get usage when there is none, shows how old the value is). New setups hide cards for AI tools that are not installed."
 }
