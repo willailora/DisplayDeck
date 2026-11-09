@@ -1,8 +1,8 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "",
-  "notes_en": ""
+  "notes_ja": "Claude の使用量 API を削除（Claude の使用量はステータスラインから受け取ります）。作者のマークを追加、利用規約を更新。",
+  "notes_en": "Removed the Claude usage API (Claude usage now comes from the status line). Added the author mark and updated the terms of use."
 }
