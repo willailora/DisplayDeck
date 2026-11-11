@@ -19,6 +19,8 @@ The app itself is distributed on the download pages below (it is not open source
 - `displaydeck-usage/` — a small Claude Code mod (MIT) that hands your Claude usage (5-hour / weekly) to DisplayDeck,
   also while you use the Claude desktop app. See [displaydeck-usage/README.md](displaydeck-usage/README.md).
   Claude の使用量を DisplayDeck に渡す、Claude Code 用の小さな mod（MIT ライセンス）。
+- `lang/` — the screen-text template (`en.json`) and how to add your own language. See [lang/README.md](lang/README.md).
+  画面の文字のひな形と、言語の増やし方（MIT ライセンス）。
 
 Install the mod in a terminal Claude Code session / mod の入れ方（ターミナル版の Claude Code で）:
 
