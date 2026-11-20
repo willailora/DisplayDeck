@@ -1,8 +1,8 @@
 {
-  "version": "0.9.5",
+  "version": "1.0.0",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "11の言語に対応しました（簡体字・繁体字中国語、韓国語、スペイン語、フランス語、ドイツ語、イタリア語、ポルトガル語（ブラジル）、ロシア語を追加。機械翻訳）。言語ファイルを置けばほかの言語も足せます。長い文字は枠に合わせて縮めて表示します。",
-  "notes_en": "Now in 11 languages: added Simplified and Traditional Chinese, Korean, Spanish, French, German, Italian, Portuguese (Brazil) and Russian (machine-translated). You can add more by dropping in a language file. Long text now shrinks to fit."
+  "notes_ja": "大きな更新です。情報のカード・曲・時計・天気・音量・マイク音量・共通のボタンなどの部品を、タイルと同じマス目に自由に置けるように。Webhook・OBS などの新しいボタンと、お試し用のダイス MOD も。",
+  "notes_en": "A big update: put every part (info cards, now playing, clock, volume, mic volume, shared buttons…) anywhere on the tile grid. Also new webhook and OBS buttons, and a trial Dice MOD."
 }
