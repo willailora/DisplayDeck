@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "大きな更新です。情報のカード・曲・時計・天気・音量・マイク音量・共通のボタンなどの部品を、タイルと同じマス目に自由に置けるように。Webhook・OBS などの新しいボタンと、お試し用のダイス MOD も。",
-  "notes_en": "A big update: put every part (info cards, now playing, clock, volume, mic volume, shared buttons…) anywhere on the tile grid. Also new webhook and OBS buttons, and a trial Dice MOD."
+  "notes_ja": "天気の今日の最低気温が、朝（5時〜11時ごろ）に最高気温と同じ値になる不具合を直しました。1.0 の大きな更新（部品を自由に配置・新しいボタン・お試しのダイス MOD）も入っています。",
+  "notes_en": "Fixes today's low temperature showing the same value as the high in the morning (about 5:00–11:00). Includes everything from the big 1.0 update: free layout, new buttons and a trial Dice MOD."
 }
