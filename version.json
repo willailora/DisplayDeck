@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "天気の今日の最低気温が、朝（5時〜11時ごろ）に最高気温と同じ値になる不具合を直しました。1.0 の大きな更新（部品を自由に配置・新しいボタン・お試しのダイス MOD）も入っています。",
-  "notes_en": "Fixes today's low temperature showing the same value as the high in the morning (about 5:00–11:00). Includes everything from the big 1.0 update: free layout, new buttons and a trial Dice MOD."
+  "notes_ja": "ビジュアライザーの更新です。音に合わせて動くタイル（12の見た目・好きな色・レインボー、1マスから）と、用意したセット「音楽」に MusicBee・Spotify・VLC などのページを足しました。",
+  "notes_en": "The visualizer update: tiles that move with your music (12 looks, any color or rainbow, from a single cell), plus new pages for MusicBee, Spotify, VLC and more in the ready-made Music set."
 }
