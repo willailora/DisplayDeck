@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "ビジュアライザーの更新です。音に合わせて動くタイル（12の見た目・好きな色・レインボー、1マスから）と、用意したセット「音楽」に MusicBee・Spotify・VLC などのページを足しました。",
-  "notes_en": "The visualizer update: tiles that move with your music (12 looks, any color or rainbow, from a single cell), plus new pages for MusicBee, Spotify, VLC and more in the ready-made Music set."
+  "notes_ja": "「ひと目」アップデートです。好きな画像を背景にでき、テーマの色も選べます。使用枠が少なくなるとカードが光って知らせ、7日のグラフも見られます。ワイヤレス機器の電池残量と、Antigravity の使用枠のカードも足しました。",
+  "notes_en": "The At a Glance update: your own background image and theme colors, cards that glow when usage runs low (with a 7-day graph), battery levels of wireless devices, and an Antigravity usage card."
 }
