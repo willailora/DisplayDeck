@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
+  "version": "1.5.0",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "「ひと目」アップデートです。好きな画像を背景にでき、テーマの色も選べます。使用枠が少なくなるとカードが光って知らせ、7日のグラフも見られます。ワイヤレス機器の電池残量と、Antigravity の使用枠のカードも足しました。",
-  "notes_en": "The At a Glance update: your own background image and theme colors, cards that glow when usage runs low (with a 7-day graph), battery levels of wireless devices, and an Antigravity usage card."
+  "notes_ja": "「レインボー」アップデートです。背景に動画を流せるようになり、ボタンにも画像・動画・動く GIF を使えます。同梱のアイコンにテーマの色（レインボーも）、押したときの効果と音、テーマのプリセット、曲のジャケットの背景、「画面を暗くする」タイル、タイルのコピーなども足しました。",
+  "notes_en": "The Rainbow update: video backgrounds, pictures, videos and animated GIFs on buttons, built-in icons in theme or rainbow colors, tap effects and sounds, theme presets, cover-art backgrounds, a Dim screen tile, tile copy & paste and more."
 }
