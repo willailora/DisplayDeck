@@ -66,7 +66,7 @@ mods\
 | `version` | 文字 | | 空 | 名前の隣に出す版。20 文字で切る |
 | `command` | 文字 | 必須 | — | 動かすファイルの名前。MOD のフォルダーの直下のファイルだけ（`\`・`/`・`:` を含めない。`.`・`..` も不可）。拡張子は `.ps1` か `.exe`（`.bat`・`.cmd` は不可） |
 | `icon` | 文字 | | DisplayDeck の MOD のアイコン | タイルのアイコン。直下の `.png` か `.jpg`、2MB まで（4 節）。合わないときは既定のアイコン |
-| `iconTint` | 真偽 | | `false` | `true` のときだけ、アイコンをテーマの色に付け替える（`.png` のアイコンだけ。4 節。1.6.1（次の版）から） |
+| `iconTint` | 真偽 | | `false` | `true` のときだけ、アイコンをテーマの色に付け替える（`.png` のアイコンだけ。4 節。1.6.1 から。1.6.1 の公開時期は未定） |
 | `hosts` | 文字の配列 | | なし | 通信先。確かめる画面と設定画面に出す。1 つ 100 文字で切り、10 個まで（それより多いと「…」）。出すだけで、DisplayDeck は通信を確かめたり止めたりしない |
 | `settings` | 配列 | | なし | 設定の欄（下の表） |
 | `intervalMinutes` | 整数 | | `30` | 天気だけ。動かす間隔（分）。15〜360 に収める。`30.0` や `"30"` と書くと読まずに 30 |
@@ -101,12 +101,12 @@ mods\
 - 大きさはタイルの大きさと「アイコンの大きさ」の設定で決まります。名前はふつうアイコンの下です（設定で重ねる・出さないもできます）。
 - 一度押すと、アイコンの所に結果を出します（7 節）。
 - 利用者はタイルごとにアイコンを別の画像に替えられます。MOD のタイルでは「アイコンの出し方」の「タイルいっぱい」は使えません。
-- テーマの色（「背景・テーマ…」の「アイコンの色」と、タイルごとの「アイコンの色」）に付け替わるのは、mod.json に `"iconTint": true` と書いた MOD の `.png` のアイコンだけです（1.6.1（次の版）から。下の「テーマの色に付け替わるアイコンの作り方」）。書かないとき・`.jpg` のときは、元の色のまま出ます。
+- テーマの色（「背景・テーマ…」の「アイコンの色」と、タイルごとの「アイコンの色」）に付け替わるのは、mod.json に `"iconTint": true` と書いた MOD の `.png` のアイコンだけです（1.6.1 から。1.6.1 の公開時期は未定で、今の版では元の色のまま。下の「テーマの色に付け替わるアイコンの作り方」）。書かないとき・`.jpg` のときは、元の色のまま出ます。
   - `icon` を書かない MOD が出す既定のアイコンは DisplayDeck の同梱のアイコンなので、こちらはいつも付け替わります。
 
 #### テーマの色に付け替わるアイコンの作り方
 
-mod.json に `"iconTint": true` を書くと、そのアイコンを同梱のアイコンと同じように付け替えます（DisplayDeck 1.6.1（次の版）から）。付け替えるのは、`icon` が `.png` で、利用者が「この MOD を確かめて使う」を押した MOD だけです。下は、その付け替えの決まり（コードにあるもの）です。見本は同梱のダイス MOD（1.1.0 から `iconTint` を使っています）。
+mod.json に `"iconTint": true` を書くと、そのアイコンを同梱のアイコンと同じように付け替えます（DisplayDeck 1.6.1 から。1.6.1 の公開時期は未定です。今の版はこの項目を読み飛ばすので、先に書いておいても害はありません）。付け替えるのは、`icon` が `.png` で、利用者が「この MOD を確かめて使う」を押した MOD だけです。下は、その付け替えの決まり（コードにあるもの）です。見本は同梱のダイス MOD（1.1.0 から `iconTint` を使っています）。
 
 **付け替えのしくみ**
 
@@ -371,7 +371,7 @@ Out-Json @{
 - この仕様書は 1.6.0 のコード（と 1.6.1 の `iconTint`）で確かめました。1.0.0 から 1.6.0 まで、mod.json・環境変数・出力の決まりは変わっていません。
 - 1.2.0: 確かめる画面の既定のボタンを「いいえ」にしました。
 - 1.5.0: アイコンの色の付け替えが入りましたが、MOD のアイコンは対象外です（4 節）。
-- 1.6.1（次の版）: mod.json に `iconTint` が入ります（4 節）。古い版の DisplayDeck は、この項目を読み飛ばします（アイコンは元の色のまま）。
+- 1.6.1（公開時期は未定）: mod.json に `iconTint` が入ります（4 節）。古い版の DisplayDeck は、この項目を読み飛ばします（アイコンは元の色のまま）。
 
 ---
 
@@ -433,7 +433,7 @@ Even when listed, approving it also requires (section 8): at most 200 files and 
 | `version` | text | | empty | Version shown next to the name. Cut at 20 characters |
 | `command` | text | yes | — | Name of the file to run. Only a file directly inside the MOD folder (no `\`, `/` or `:`; not `.` or `..`). Extension `.ps1` or `.exe` (`.bat` and `.cmd` are not allowed) |
 | `icon` | text | | DisplayDeck's MOD icon | Tile icon. A `.png` or `.jpg` directly inside the folder, up to 2 MB (section 4). Otherwise the default icon |
-| `iconTint` | boolean | | `false` | Only when `true`, the icon is recolored to the theme (`.png` icons only. Section 4. Since 1.6.1, the next version) |
+| `iconTint` | boolean | | `false` | Only when `true`, the icon is recolored to the theme (`.png` icons only. Section 4. Since 1.6.1; its release date is not decided yet) |
 | `hosts` | array of text | | none | Hosts it talks to. Shown on the approval screen and in the settings. Each is cut at 100 characters; up to 10 (more are shown as "…"). Display only: DisplayDeck does not check or block network access |
 | `settings` | array | | none | Setting fields (table below) |
 | `intervalMinutes` | integer | | `30` | Weather only. Interval in minutes, kept within 15–360. Written as `30.0` or `"30"`, it is ignored and 30 is used |
@@ -468,12 +468,12 @@ Even when listed, approving it also requires (section 8): at most 200 files and 
 - The size depends on the tile size and the "Icon size" setting. The name is usually below the icon (the settings can also overlay it or hide it).
 - After the first press, the result is shown where the icon was (section 7).
 - Users can replace the icon per tile. MOD tiles cannot use "Fill the tile" under "Icon display".
-- An icon follows the theme ("Icon color" in "Background and theme…" and the per-tile "Icon color") only when mod.json says `"iconTint": true` and the icon is a `.png` (since 1.6.1, the next version; see "Making an icon that follows the theme color" below). Otherwise, and for `.jpg` icons, the icon keeps its own colors.
+- An icon follows the theme ("Icon color" in "Background and theme…" and the per-tile "Icon color") only when mod.json says `"iconTint": true` and the icon is a `.png` (since 1.6.1, whose release date is not decided yet; current versions keep the icon's own colors; see "Making an icon that follows the theme color" below). Otherwise, and for `.jpg` icons, the icon keeps its own colors.
   - The default icon shown for a MOD without `icon` is one of DisplayDeck's bundled icons, so that one is always recolored.
 
 #### Making an icon that follows the theme color
 
-Writing `"iconTint": true` in mod.json makes DisplayDeck recolor the icon the same way as the bundled icons (since DisplayDeck 1.6.1, the next version). Only a `.png` icon of a MOD that the user has approved ("Verify and use this MOD") is recolored. The rules below are the recoloring rules in the code. The bundled Dice MOD uses `iconTint` since its version 1.1.0, as a sample.
+Writing `"iconTint": true` in mod.json makes DisplayDeck recolor the icon the same way as the bundled icons (since DisplayDeck 1.6.1; its release date is not decided yet. Current versions skip this field, so it is safe to add it now). Only a `.png` icon of a MOD that the user has approved ("Verify and use this MOD") is recolored. The rules below are the recoloring rules in the code. The bundled Dice MOD uses `iconTint` since its version 1.1.0, as a sample.
 
 **How recoloring works**
 
@@ -738,4 +738,4 @@ Out-Json @{
 - This specification was checked against the 1.6.0 code (and `iconTint` in 1.6.1). From 1.0.0 to 1.6.0, the rules for mod.json, environment variables and output have not changed.
 - 1.2.0: the default button on the approval screen became "No".
 - 1.5.0: icon recoloring was added, but MOD icons are not included (section 4).
-- 1.6.1 (the next version): `iconTint` is added to mod.json (section 4). Older versions of DisplayDeck skip this field (the icon keeps its own colors).
+- 1.6.1 (release date not decided yet): `iconTint` is added to mod.json (section 4). Older versions of DisplayDeck skip this field (the icon keeps its own colors).
