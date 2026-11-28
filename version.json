@@ -1,8 +1,8 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "url": "https://willlive.itch.io/displaydeck",
   "url_ja": "https://ailorawill.booth.pm/items/9117668",
   "url_en": "https://willlive.itch.io/displaydeck",
-  "notes_ja": "「レインボー」アップデートです。背景に動画を流せるようになり、ボタンにも画像・動画・動く GIF を使えます。同梱のアイコンにテーマの色（レインボーも）、押したときの効果と音、テーマのプリセット、曲のジャケットの背景、「画面を暗くする」タイル、タイルのコピーなども足しました。",
-  "notes_en": "The Rainbow update: video backgrounds, pictures, videos and animated GIFs on buttons, built-in icons in theme or rainbow colors, tap effects and sounds, theme presets, cover-art backgrounds, a Dim screen tile, tile copy & paste and more."
+  "notes_ja": "「キーボード」アップデートです。タッチ画面にキーボードを置いたり、タイルから呼び出したりできます。ページごとの配列、自分の配列、日本語・韓国語のフリック入力、絵文字と記号、トラックパッド、スクロールの帯も足しました。",
+  "notes_en": "The Keyboard update: a keyboard on your touch screen, always there or called up from a tile, with a layout per page, your own layouts, Japanese and Korean flick input, emoji & symbols, a touchpad and a scroll strip."
 }
