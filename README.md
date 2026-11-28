@@ -21,6 +21,8 @@ The app itself is distributed on the download pages below (it is not open source
   Claude の使用量を DisplayDeck に渡す、Claude Code 用の小さな mod（MIT ライセンス）。
 - `lang/` — the screen-text template (`en.json`) and how to add your own language. See [lang/README.md](lang/README.md).
   画面の文字のひな形と、言語の増やし方（MIT ライセンス）。
+- `MOD-SPEC.md` — how to make a DisplayDeck MOD (an add-on tile or weather source): mod.json, environment variables, output, icons. A working sample is the [Dice MOD](https://github.com/willailora/DiceDisplayDeckMOD).
+  DisplayDeck の MOD（タイル・天気の取り先を足す追加の機能）の作り方の仕様書。見本は [ダイス MOD](https://github.com/willailora/DiceDisplayDeckMOD)。
 
 Install the mod in a terminal Claude Code session / mod の入れ方（ターミナル版の Claude Code で）:
 
